@@ -17,7 +17,7 @@ function Card ({id}){
     return(
         <section className={styles.card}>
             <Link  to={`/watch/${id}`} >
-                <img src={`https:img.youtube.com/vi/${id}/mqdefault.jpg`} alt='Capa' className={styles.capa}/>
+                <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt='Capa' className={styles.capa}/>
             </Link>
             <figure className={styles.icon}>
                 <img  
